@@ -1,0 +1,140 @@
+.books-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .page-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333; /* Adjust text color to contrast with the light background */
+    background-color: #e0f2f1; /* Light blue background color */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 8px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .book-item {
+    width: calc(50% - 10px); 
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .book-item:hover {
+    transform: translateY(-3px);
+  }
+  
+  .book-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .book-thumbnail {
+    width: 100px; 
+    height: 150px;
+    background-color: #ddd;
+    display: inline-block;
+    margin-right: 20px;
+    overflow: hidden;
+  }
+  
+  .book-detail {
+    flex-grow: 1;
+  }
+  
+  .book-title {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .book-author {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination button:hover {
+    background-color: #0056b3;
+  }
+  
+  .pagination span {
+    margin: 0 10px;
+  }
+  .next-button {
+    background-color: #007bff; /* Default background color */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .next-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .next-button.disabled {
+    background-color: #ccc; /* Change background color for disabled state */
+    cursor: not-allowed;
+  }
+  
+
+  /* Books.css */
+.search-container {
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .search-input:focus {
+    border-color: #007bff; /* Change border color when focused */
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }
+  
